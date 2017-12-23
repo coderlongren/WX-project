@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/pagetwo/pagetwo",
+    "pages/template/head/head",
+    "pages/index/index",
+    "pages/wxfor/wxfor",
+    "pages/pageone/pageone",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "我的微信小程序",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": "true"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/首页.png",
+        "selectedIconPath": "images/首页.png",
+        "color": "red"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath": "images/家人.png",
+        "selectedIconPath": "images/家人.png"
+      },
+      {
+        "pagePath": "pages/pageone/pageone",
+        "text": "第一页",
+        "iconPath": "images/历史记录.png",
+        "selectedIconPath": "images/历史记录.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": "true"
+}

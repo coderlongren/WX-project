@@ -1,0 +1,28 @@
+<!--pages/pageone/pageone.wxml-->
+<view>
+  pageone
+</view>
+<view>
+  global value:{{test}}
+</view>
+<!-- This is our View -->
+<view> 
+	Hello {{name}}! 
+</view>
+<button bindtap="changeName"> 
+	Click me! 
+</button>
+<view style='width:400rpx;height:500rpx'>
+  <navigator open-type = 'redirect' url ="pages/pagetwo/pagetwo">喜欢我就点我吧</navigator> 
+</view>
+
+<view>
+  <button bindtap="changevalue" size='mini' type='primary'>
+  局部变量加一
+  </button>
+   {{localdata}}
+  <button bindtap="changevalue1">
+    全局加一
+  </button>
+  {{globaldata}}
+</view>

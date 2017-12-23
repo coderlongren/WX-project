@@ -1,0 +1,13 @@
+<!--pages/wxfor/wxfor.wxml-->
+<text>pages/wxfor/wxfor.wxml</text>
+<view>
+   wx:for的使用
+</view>
+<view wx:for="{{empler}}">
+  {{item}}.{{item.name}}
+</view>
+
+<view wx:if="{{flag}}">
+  <view wx:if="{{score>60}}">优秀</view>
+
+</view>

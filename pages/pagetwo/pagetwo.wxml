@@ -1,0 +1,12 @@
+<block wx:for="{{[1, 2, 3]}}">
+  <view> {{index}}: </view>
+  <view> {{item}} </view>
+</block>
+<block wx:if="{{true}}">
+  <view> view1 </view>
+  <view> view2 </view>
+</block>
+<view hidden='{{true}}'>
+  dfdfg
+</view>
+<view id="tapTest" data-hi="WeChat" bindtap="tapName"> Click me! </view>
