@@ -10,3 +10,7 @@
   dfdfg
 </view>
 <view id="tapTest" data-hi="WeChat" bindtap="tapName"> Click me! </view>
+<view hidden='{{true}}'>
+    xcvx
+
+</view>

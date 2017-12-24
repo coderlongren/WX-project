@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/view/view",
+    "pages/icon/icon",
     "pages/pagetwo/pagetwo",
     "pages/template/head/head",
     "pages/index/index",

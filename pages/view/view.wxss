@@ -1,0 +1,17 @@
+/* pages/view/view.wxss */
+.flex-item{
+  height: 300rpx;
+  width: 200rpx;
+}
+.bc_green{
+  background-color: green;
+}
+.bc_red{
+  background-color: red;
+}
+.bc_red::after{
+  display: "sdfsdf"
+}
+.bc_blue{
+  background: blue;
+}
